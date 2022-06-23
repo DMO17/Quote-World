@@ -1,0 +1,5 @@
+import classes from "./style.module.css";
+
+export const LoadingSpinner = () => {
+  return <div className={classes.spinner}></div>;
+};
