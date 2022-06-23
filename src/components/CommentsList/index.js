@@ -1,8 +1,8 @@
 import classes from "./style.module.css";
 
-import CommentItem from "../CommentItem";
+import { CommentItem } from "../CommentItem";
 
-const CommentsList = (props) => {
+export const CommentsList = (props) => {
   return (
     <ul className={classes.comments}>
       {props.comments.map((comment) => (

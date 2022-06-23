@@ -4,7 +4,7 @@ import { useRef, useEffect } from "react";
 
 import useHttp from "../../hooks/use-http";
 import { addComment } from "../../lib/api";
-import LoadingSpinner from "../LoadingSpinner";
+import { LoadingSpinner } from "../LoadingSpinner";
 
 export const NewCommentForm = (props) => {
   const commentTextRef = useRef();

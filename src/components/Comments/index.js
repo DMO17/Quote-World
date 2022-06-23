@@ -2,11 +2,11 @@ import { useState, useEffect, useCallback } from "react";
 import { useParams } from "react-router-dom";
 
 import classes from "./style.module.css";
-import NewCommentForm from "../NewCommentForm";
+import { NewCommentForm } from "../NewCommentForm";
 import useHttp from "../../hooks/use-http";
 import { getAllComments } from "../../lib/api";
-import LoadingSpinner from "../LoadingSpinner";
-import CommentsList from "../CommentsList";
+import { LoadingSpinner } from "../LoadingSpinner";
+import { CommentsList } from "../CommentsList";
 
 export const Comments = () => {
   const [isAddingComment, setIsAddingComment] = useState(false);

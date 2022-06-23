@@ -3,8 +3,8 @@ import classes from "./style.module.css";
 import { Fragment, useRef, useState } from "react";
 import { Prompt } from "react-router-dom";
 
-import Card from "../Card";
-import LoadingSpinner from "../LoadingSpinner";
+import { Card } from "../Card";
+import { LoadingSpinner } from "../LoadingSpinner";
 
 export const QuoteForm = (props) => {
   const [isEntering, setIsEntering] = useState(false);

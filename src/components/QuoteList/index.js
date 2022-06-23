@@ -3,7 +3,7 @@ import classes from "./style.module.css";
 import { Fragment } from "react";
 import { useHistory, useLocation } from "react-router-dom";
 
-import QuoteItem from "../QuoteItem";
+import { QuoteItem } from "../QuoteItem";
 
 const sortQuotes = (quotes, ascending) => {
   return quotes.sort((quoteA, quoteB) => {
